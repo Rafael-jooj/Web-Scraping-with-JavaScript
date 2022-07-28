@@ -1,8 +1,6 @@
 const { Cluster } = require('puppeteer-cluster');
 const pup = require('puppeteer');
 
-const urls = ["https://www.mercadolivre.com.br/apple-macbook-air-13-polegadas-2020-chip-m1-256-gb-de-ssd-8-gb-de-ram-cinza-espacial/p/MLB17828518?pdp_filters=category:MLB1652#searchVariation=MLB17828518&position=1&search_layout=grid&type=product&tracking_id=454ae7c4-2208-415a-8d04-9bf5d7ef6492", "https://www.mercadolivre.com.br/apple-macbook-air-13-polegadas-2020-chip-m1-256-gb-de-ssd-8-gb-de-ram-prateado/p/MLB17828520?pdp_filters=category:MLB1652#searchVariation=MLB17828520&position=2&search_layout=grid&type=product&tracking_id=fd27b9f6-c480-4053-9a05-aaa30f9902ae", "https://www.mercadolivre.com.br/apple-macbook-air-13-polegadas-2020-chip-m1-256-gb-de-ssd-8-gb-de-ram-ouro/p/MLB17828522?pdp_filters=category:MLB1652#searchVariation=MLB17828522&position=3&search_layout=grid&type=product&tracking_id=4e80e72c-14ad-4c29-b325-a45951104aaa"];
-
 const url = "https://www.mercadolivre.com.br/";
 const searcFor = "Macbook";
 
